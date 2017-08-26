@@ -11,3 +11,4 @@ text, but if you're going to use the book for self-instruction, you'll
 need some background in basic music theory, and preferably access to
 someone knowledgeable to provide guidance.
 
+The book's home page is here: http://www.lightandmatter.com/sight/sight.html
