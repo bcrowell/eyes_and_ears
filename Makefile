@@ -4,7 +4,8 @@ NICE =
 #LATEX = latex -output-format dvi
 LATEX = latex
 
-CC_OPTIONS = -Wno-implicit-int
+CC_OPTIONS = -Wno-implicit-int -Wno-implicit-function-declaration
+# https://stackoverflow.com/questions/20106574/simple-yacc-grammars-give-an-error
 
 book: clamor_lily
 	$(NICE) build.pl book >sight.lytex
