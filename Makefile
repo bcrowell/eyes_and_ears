@@ -13,7 +13,7 @@ book: clamor_lily
 	cd $(OUT) ; \
 	cp ../sight.cls . ; \
 	cp ../mytocloft.sty . ; \
-	cp ../cover.ps . ; \
+	#cp ../cover.ps . ; \
 	cp ../copyright.tex . ; \
 	cp ../brieftoc.tex . ; \
 	inkscape --export-pdf="cover.pdf" ../cover.svg ; \
