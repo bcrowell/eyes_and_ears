@@ -4,7 +4,7 @@ NICE =
 #LATEX = latex -output-format dvi
 LATEX = latex
 
-CC_OPTIONS = -Wno-implicit-int -Wno-implicit-function-declaration
+CC_OPTIONS = -Wno-implicit-int -Wno-implicit-function-declaration -fno-builtin-exit
 # https://stackoverflow.com/questions/20106574/simple-yacc-grammars-give-an-error
 
 book: clamor_lily
