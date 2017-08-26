@@ -34,29 +34,6 @@ catalog:
 
 post:
 	cp sight.pdf ~/Lightandmatter/sight/
-	cp eyes_and_ears.tar.gz ~/Lightandmatter/sight/
-
-dist:
-	rm -Rf eyes_and_ears
-	mkdir eyes_and_ears
-	mkdir eyes_and_ears/melodies
-	build.pl dist
-	cp Makefile eyes_and_ears
-	cp build.pl eyes_and_ears
-	cp sight.cls eyes_and_ears
-	cp mytocloft.sty eyes_and_ears
-	cp top.tex eyes_and_ears
-	cp bottom.tex eyes_and_ears
-	cp list eyes_and_ears
-	#cp cover_orig.png eyes_and_ears
-	cp permissions eyes_and_ears
-	cp Lily.pm eyes_and_ears
-	cp melodies/*.ly eyes_and_ears/melodies
-	cp lily.l eyes_and_ears
-	cp lily.y eyes_and_ears
-	cp midi.pl eyes_and_ears
-	tar -zcvf eyes_and_ears.tar.gz eyes_and_ears
-	rm -Rf eyes_and_ears
 
 clamor_lily: lily.l lily.y
 	# lily.l and lily.y are duplicated in clamor
