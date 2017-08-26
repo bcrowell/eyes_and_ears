@@ -1,0 +1,56 @@
+From Thierry_Klein@compuserve.com  Mon May  3 08:16:19 2004
+Received: from siaag2ab.compuserve.com (siaag2ab.compuserve.com [149.174.40.132])
+	by lightandmatter.com (8.11.6/8.11.6) with ESMTP id i43DGJ716775
+	for <crowell04@lightandmatter.com>; Mon, 3 May 2004 08:16:19 -0500
+Received: (from mailgate@localhost)
+	by siaag2ab.compuserve.com (8.12.11/8.12.7/SUN-2.13) id i43DG4Ng025147
+	for crowell04@lightandmatter.com; Mon, 3 May 2004 09:16:04 -0400 (EDT)
+Date: Mon, 3 May 2004 09:13:26 -0400
+From: Thierry Klein <Thierry_Klein@compuserve.com>
+Subject: demande d'utiliser des chansons de votre recueil
+Sender: Thierry Klein <Thierry_Klein@compuserve.com>
+To: Ben Crowell <crowell04@lightandmatter.com>
+Message-ID: <200405030913_MC3-1-8144-D6A9@compuserve.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	 charset=ISO-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by lightandmatter.com id i43DGJ716775
+Status: RO
+X-Status: A
+Content-Length: 1759
+Lines: 32
+
+                Bonjour,
+
+        Je suis donc allé voir votre page et j'ai téléchargé le livre (par
+curiosité, le fichier archive aussi, bien que je n'ai ni bison, ni flex).
+Je n'ai pas eu le temps de le lire mais il me semble intéressant.
+        J'utilise MusicTeX et LaTeX pour produire les partitions. J'ai
+beaucoup cherché mais c'est la seule solution qui m'a paru convenir. Je me
+suis arrêté au stade PostScript car les fichiers PDF sont plus gros
+(presque le double) et le résultat est moins bon. Par contre, bien que
+depuis peu je sois équipé avec une station Sun (Solaris), j'utilise LaTeX
+sous Windows : l'utilisation (et le résultat)  étant d'ailleurs la (les)
+même(s) sous les deux systèmes !
+        Je dois malheureusement vous dire que les arrangements ne sont pas
+de moi : j'en suis incapable. Vous pouvez vous servir des musiques
+publiées.
+        Mais je suis encore loin d'avoir terminé la publication des
+partitions (c'est long !!!!), donc je ne sais si vous êtes équipé mais les
+fichiers MIDI peuvent être retranscrits en "partitions" en utilisant un
+"éditeur de partitions" comme celui que j'utilise (NoteWorthy Composer).
+Sous Windows...
+        D'autre part si vous désirez les fichiers LaTeX des partitions,
+n'hésitez pas à me les demander. Si les premières n'étaient pas parfaites
+au point de vue syntaxique, elles s'améliorent... Chaque partition fait
+l'objet d'un fichier indépendant (begin{music}-end{music}) qui est intégré
+au fichier principal (input{fichier}).
+        Du moment que vous mentionnez d'où vient votre matériel (l'adresse
+de mon site en l'occurence) et que vous me le demandez, il n'y a pas de
+problème pour l'utilisation de tout ce que j'ai pu mettre en ligne.
+
+        Bon travail et à bientôt,
+
+Thierry Klein

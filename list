@@ -1,0 +1,564 @@
+#     format of this file:
+#       foo          a melody contained in the file foo.ly
+#       foo,f        sets the flag f, which means that this is a famous melody
+#           r        this is a rhythm only, and doesn't need to be parsed for the thematic index
+#           h        don't give any header
+#           d        didactic stuff; don't give it a number or anything
+#       
+#       # blah       a comment lasting until the end of the line
+#       *text        explanatory text, to be kept on the same page with the following melody.
+#                    blank line ignored
+#       =Foo         chapter header
+#       ==Bar        section header
+#       ==Bar        section header//label   -> \label{sec:label}
+#       ==Bar        section header!!flags
+#                                      p = don't add a page break
+#       Indentation is ignored.
+#       Files starting with x_ are to be ignored by Clamor. Use this both for tunes that are not so great, and for files that Clamor can't parse (e.g., duets).
+#       Updating the chapter and section headings in this file causes the big TOC to be updated automatically, but not the brief TOC.
+=Rhythm
+  *The rhythms in this chapter all come from well-known tunes. After reading them, you may want to look at the titles, which are given in the table of contents. If you're working with a teacher, you may wish to clap the rhythm twice, with the teacher counting beats the first time, and singing the tune the second time.
+==Whole, Half, and Quarter Notes
+  x_rh_twinkle,rh
+  x_rh_jug,rh
+  x_rh_bingo,rh
+  x_rh_rain,rh
+  x_rh_faithful,rh
+==3/4 Time, and Dotted Half-Notes!!p
+  x_rh_kings,rh
+  x_rh_ballgame,rh
+==Eighth Notes!!p
+  x_rh_bethlehem,rh
+  x_rh_wish,rh
+  x_rh_old_man,rh
+  x_rh_hush,rh
+==Dotted Quarter Notes!!p
+  x_rh_jingle,rh
+  x_rh_crack_corn,rh
+  x_rh_manger,rh
+  x_rh_rockabye,rh
+  x_rh_range,rh
+==Sixteenth Notes!!p
+  x_rh_tchaikovsky_trepak,rh
+==Dotted Eighth Notes!!p
+  x_rh_alouette,rh
+  x_rh_tchaikovsky_flowers,rh
+  x_rh_railroad,rh
+==Compound Time!!p
+  x_rh_mulberry,rh
+  x_rh_spider,rh
+  x_rh_weasel,rh
+  x_rh_row,rh
+==Syncopation!!p
+  x_rh_entertainer,rh
+==Triplets!!p
+  x_rh_tchaikovsky_march,rh
+=Major Keys
+==Introduction to Solfeggio
+  *The following syllables are traditionally used for the seven notes of the major scale.
+  x_syllables1,d
+  *They originate from the Latin hymn \emph{Ut Queant Laxis}, in which the first word of each successive musical phrase began on the next note of the scale.
+  *This book uses the movable do system. In this system, `do' is always the tonic, and the other syllables are assigned to the other notes according to their role in the key. In the key of D, for example:
+  x_syllables2,d
+  *This may seem confusing at first, but it's the only system that makes sense to the ear. For instance, `ti' is always a note with a tendency to move up a half-step to `do,' the tonic. (There is also a fixed do system, in which `do' is always C, `re' is always D, and so on. The fixed do system is often taught to European schoolchildren, who don't know enough music theory to recognize the roles of the different notes in relation to the tonic in a key that has sharps or flats.)
+  *Sight singing is first and foremost a method of training your brain to understand relationships between musical notes, and is therefore an important component of musicianship even if you consider yourself primarily a composer or instrumentalist rather than a singer. For example, a jazz musician improvising a solo on the saxophone needs to be able to imagine a melody, and understand the relationship between the imagined pitches so as to be able to translate them into fingerings. The solfeggio syllables are a device for making the recognition of the relationships automatic.
+  *Broadly speaking, there are two main approaches to learning solfeggio singing. One can learn to sing intervals, or to sing each note according to its role in the key. That is, we can hear each note in relation to the preceding note, or in relation to the tonic. Suppose, for example, that we're singing a piece of music in the key of C major, and having just sung B, which is `ti,' we see that the next note in the melody is C, which is `do.' In the first approach, we recognize this as the interval of a half-step (minor second), so we move to the note a half-step above the one we've just sung. In the second technique, we know how to sing `do' because of its special sound in relation to the key: it's the tonic, the note that sounds like it would be a good one to end the song on. In reality, one doesn't use either technique exclusively. We might as well ask Shakespeare what he does when he reads words: `Mr. Shakespeare, do you use phonics, or do you recognize whole words?' A fluent reader is actually decoding patterns at a subconscious level, and the process is extremely rapid because most of the patterns are familiar.
+  *Because the goal is rapid recognition of patterns at a subconscious level, one should not expect to become a fluent sight singer by artificial devices. For instance, many people learn to recognize the interval of a major sixth using a tune such as `My Bonnie Lies Over the Ocean' or the NBC jingle. This is a good thing to learn, just as it's good to learn that an E at the end of a word makes the preceding vowel long. But a fluent reader doesn't look at the word `sure' and think `silent E makes the U long.' Learning the phonics rules is necessary, but having learned them, we actually become fluent readers through the act of reading large amounts of English.
+  *There is also a pitfall to this technique of learning to hear intervals via a personalized list of familiar melodies. The leap of a major sixth in `My Bonnie' is a leap from `so' up to 'mi,' but your brain will probably refuse to recognize the leap from `re' to `ti' as being the same thing, because `re' and `ti' play different roles in the key than `so' and `mi.' Some people learn two melodies, one for `so-mi' and one for `re-ti.' Some might even do another two for the downward leaps `mi-so' and `ti-re!' This just shows that the technique is artificial and not usually very useful.
+==Melodies Containing Only Steps
+  *In each example, start by identifying which line or space on the staff represents `do,' the tonic. If you have an instrument at hand, play the tonic, and then sing enough notes from the tonic chord to bracket the range of the melody, e.g., `do mi so do' for the octave spanned by the first example. If an instrument is not available, pick a note for `do' that will put the melody in the most comfortable part of your vocal range. Locate the notes of the tonic chord on the staff to use as reference points.
+  x_crowell4
+  crowell2
+  x_crowell7
+  x_beethoven_joy,f
+  *The following example is in a new key: its `do' is the former `so.' If you have trouble convincing your brain to switch keys, try singing `do re mi fa so' in the old key, then repeating the last note as `do,' and finally singing `do ti do' --- with authority!
+  crowell3
+  x_crowell21
+  anonymous_wedge4
+  x_bach_chorale86a
+  latour_angel
+  *Note that the following two examples both have the tonic on the line at the center of the staff, so the one with five sharps actually isn't any more difficult to read.
+  x_lewis2
+  x_crowell5
+  *The following five melodies all begin on `so.'
+  x_lewis1
+  *We now begin moving around the circle of fifths in the opposite direction. `Ti' in the previous key is flattened, and becomes `fa' of the new key. If you're singing the new, flattened version of the note correctly, you should be able to hear its strong tendency to resolve down to `mi.'
+  x_crowell6
+  x_crowell8
+  x_crowell9
+  *The following two melodies both have the tonic at the same place on the staff.
+  x_crowell10
+  x_crowell18
+  *Canon for two voices:
+  x_crowell11
+  *Canon for two voices:
+  x_emerson_whither
+  x_crowell19
+  *Canon for two voices:
+  x_crowell12
+  x_lewis4
+  x_lewis5
+  x_lewis6
+  x_lewis3
+
+==Leaps to `Do'
+  x_crowell1
+  x_crowell22
+
+==Leaps Back to Remembered Notes!!p
+  x_crowell13
+  bach_chorale156
+  bach_chorale106
+  *The following example uses both leaps back to remembered notes and leaps to the tonic.
+  x_crowell23
+  *The next tune is easier than it appears, because you only need to return to the same note after each low G.
+  anonymous_wedge5
+
+==Easy Leaps Within the Tonic Triad
+  *This section introduces leaps of a third, a fourth, and an octave within the tonic triad.
+  x_beethoven_eroica_intro,f
+  x_crowell39
+  x_crowell40
+  x_crowell41
+  latham_broadway
+  anonymous_fontaine
+  pergolesi_sancta_mater
+  sullivan1
+  anonymous_recouvrance
+  froebel_patacake
+  x_anonymous_carmela_a
+  anonymous_father
+  bach_chorale54
+  anonymous_laurie
+  cutler_son
+  luther2
+  anonymous_jenny
+  foster_hard
+  weston_row
+  *The following example includes a leap of a sixth, but it's an easy leap back to `do.'
+  anonymous_auvergne
+  *This four-part canon includes a leap of a sixth to `do.'
+  anonymous_ormeau
+
+==The Leap of a Fifth Within the Tonic Triad
+  x_crowell44
+  x_crowell45
+  scarlatti_consiglio
+  rousseau_hush
+  anonymous_foret
+  anonymous_beggar
+  hawthorne_home
+  froebel_pigeons
+  x_crowell36
+
+==Leaps of a Sixth Within the Tonic Triad
+  x_crowell43
+  x_crowell42
+  wohlfahrt_etude1
+  anonymous_casquette
+  anonymous_member_a
+  froebel_chickens
+  anonymous_wedge2
+  *The next example includes both leaps within the tonic triad and leaps to `do.' Because of its wide range, it is given in two keys; make sure to choose a key in which you can actually reach all the notes!
+  anonymous_rosy_a
+  x_anonymous_rosy_b
+  *Another example that includes leaps to `do.'
+  wrighton_dearest
+  anonymous_absent
+  x_crowell33
+  *Canon for two voices:
+  x_crowell16
+
+==Leaps Within the Dominant
+  *This section introduces leaps of a third within the dominant. Fourths, fifths, and sixths are included in section \ref{sec:domwide}, and leaps of a seventh within the dominant chord are deferred until section \ref{sec:seventhleap}.
+  mozart_kleine_nachtmusik,f
+  mozart_horn_duet2
+  anonymous_wedge9
+  anonymous_fleurs
+  parry_villikins
+  anonymous_annchen
+  anonymous_chateau
+  anonymous_font
+  husband_revive
+  anonymous_row
+  anonymous_god_speed
+  mozart_papageno
+  anonymous_engel
+  anonymous_valley
+  anonymous_bainjo
+  anonymous_guide
+  anonymous_serenata
+  mozart_quartet1_adagio
+  bach_chorale55
+  beuttner_bote
+  bach_chorale162
+  bach_chorale182
+  anonymous_milatte
+  anonymous_shout
+  schubert_wohin
+  bach_chorale120
+  haydn_oxford_menuet
+  bach_chorale124
+  schubert_halt
+  x_holst_venus
+  x_anonymous_serenata_two_part
+  anonymous_foot
+  crowell4
+==Wider Leaps Within the Dominant//domwide
+  *This section introduces leaps within the dominant as broad as a sixth. Leaps of a seventh are deferred until section \ref{sec:seventhleap}.
+  x_bates_america_the_beautiful,f
+  anonymous_eli
+  anonymous_krambambuli
+  anonymous_go_way
+  anonymous_baby
+  anonymous_palais
+  bach_chorale86b
+  bach_minuet
+  anonymous_arlequin2
+  anonymous_roland
+  anonymous_wedge3
+  anonymous_bella
+  anonymous_member_b
+  anonymous_hort
+  anonymous_barbara_allan
+  anonymous_pilgrim
+  haydn_london_finale
+  anonymous_jardin2
+  anonymous_gypsy
+  anonymous_jungfraeulein
+  x_crowell38
+  strauss_geduld
+  anonymous_suzette
+  anonymous_paloma
+  schubert_wandern
+  x_crowell37
+  anonymous_ether
+  x_anonymous_wedge10
+  anonymous_wedge1
+  bach_chorale139
+  bach_chorale179
+  anonymous_argyle
+  samuel_fairy
+  anonymous_lieblich
+  *Canon for two voices:
+  x_crowell17
+
+=Minor Keys
+==Solfeggio in the Minor Mode
+  *Some people sing in the minor mode using these solfeggio syllables:
+  x_syllables3,d
+  *This system has the advantage that most of the notes have the same functions as in the major mode. `Do' is still the tonic, `so' the dominant, `ti' the leading tone, and so on. In this system, the names of the notes stay the same when switching between the parallel major and minor.
+  *Others prefer this:
+  x_syllables4,d
+  *This system highlights the relationship between the minor and its relative major.
+  *If you don't have a teacher who wants you to use one system or another, I suggest you use the first one, because it lets you recycle many of the patterns you've learned in minor. For instance, `so-ti-do' is still a formula for a cadence.
+  *In both systems, the vowel `i' is used for a sharpened note, and `e' for a flattened one. The chromatic scale looks like this:
+  x_syllables5,d
+  *The important thing is to pick a system and learn it thoroughly. (I use my own enharmonic system in which the chromatic scale is `do gu ri bu mi fa ka so ja la pa ti do.')
+==Steps
+  *The purpose of the first exercise is to get used to the solfeggio syllables used in minor.
+  x_crowell26
+  x_crowell25
+  x_crowell34
+  *This melody introduces the use of the ascending and descending forms of the melodic minor scale. The rhythmic figure is the same as in the preceding tune.
+  x_crowell27
+  #x_lewis7
+  x_lewis8
+  x_lewis9
+  x_lewis10
+  x_lewis11
+  x_lewis14
+  x_lewis12
+  bach_gavotte
+  x_lewis13
+==Leaps Within the Tonic Triad
+  x_crowell30
+  x_crowell31
+  wedge13
+  x_crowell15
+  x_crowell32
+  x_crowell24
+  wedge5
+  wedge8
+  wedge10
+  x_crowell20
+  bach_chorale84
+  anonymous_hour
+  anonymous_forget
+  bach_chorale56
+  x_mozart_g_minor,f
+  *Round:
+  anonymous_bird
+==Leaps Within the Dominant
+  wedge6
+  wedge15
+  anonymous_russian5,f
+  x_crowell29
+  wedge2
+  wedge11
+  wedge12
+  bach_anna
+  anonymous_russian6
+  anonymous_horas
+  wedge1
+  froebel_wolf
+  anonymous_guten_abend
+  bach_cello_c_minor_gavotte2
+  anonymous_lolotte
+  mozart_quartet15_menuet
+  anonymous_ojos
+  white_ophelia
+  bach_chorale143
+  anonymous_reir2
+  anonymous_grenadiers
+  anonymous_angel
+  schubert_feierabend
+  bach_chorale151
+  brahms_nachtwache1
+  anonymous_sueno
+  bach_haupt
+  bach_chorale164
+  wedge3
+  wedge4
+  handel_esther_jordan
+  anonymous_moses,f
+
+=Other Diatonic Materials
+==Leaps Between the Tonic and Dominant
+  *The following three songs contain the leap from `ti' to `mi.'
+  anonymous_alba
+  scarlatti_gange
+  schubert_danksagung
+  *The next three use leaps of a diminished fourth, an interval which sounds like a major third, and is typical of minor keys.
+  grieg1
+  anonymous_zandunga
+  carcini_amarilli
+  #---end of diminished fourth examples
+==Leaps Within the Subdominant, Major Keys
+  *The first two tunes clearly imply the subdominant chord in the marked measures.
+  anonymous_jehovah
+  anonymous_arlequin1
+  *More commonly, the melody leaps into or out of `la' without spelling out the subdominant chord explicitly. Although dominant harmony can often be implied strongly with only one or two notes, this is not usually true of the subdominant, because of its weaker character. Since thirds are the most common leaps, the most important new leaps to learn to sing are the ones between `do' and `la' and between `fa' and `la.' This melody leaps from `do' to `la:'
+  anonymous_wedge7
+  *This one jumps from `la' to `fa:'
+  anonymous_wedge8
+  foster_river,f
+  *A great deal of Scottish folk music uses a major scale that omits `ti.' `Fa' is sometimes left out as well, forming a five-note, or pentatonic, scale. Once one's ear adjusts to the sound of the scale, the characteristic leap between `do' and `la' no longer sounds like a leap at all. Of the following two examples, the first is pentatonic, while the second uses the full major scale. The first example has been notated with the style's typical elaborate ornamentation, which you may wish to ignore.
+  anonymous_lang
+  anonymous_bonniest
+  #--- end of scottish folk tune examples
+  anonymous_old_hundred
+  anonymous_tale
+  anonymous_ready
+  fasolo_cangia
+  anonymous_ash
+  west_mania
+  anonymous_jardin1
+  strauss_devotion
+  anonymous_paint
+  whittier_free
+  handel_acis_hush
+  tallis_love
+  anonymous_huntsman
+  moore_bells
+  anonymous_sinner
+  mozart_clarinet_quintet
+  anonymous_gold
+  pergolesi_stabat3
+  anonymous_window
+  fearis_isle
+  bradbury_leadeth
+  sullivan_md_juniata
+  anonymous_red_river
+  anonymous_trouble
+  haydn_london_intro
+  anonymous_rosa_lee
+  anonymous_lodging
+  anonymous_cowboys
+  anonymous_calinda
+  anonymous_yarrow
+  anonymous_gaudeamus
+  mozart_quartet2_andante
+  anonymous_moor
+  x_brahms_symphony1_intro
+  anonymous_caroline
+  anonymous_avril
+  mozart_quartet10_menuet
+  anonymous_hallowed
+  anonymous_russian3
+  anonymous_ship
+  paradies_ragna
+  x_anonymous_sonne
+  anonymous_ubi_bene
+==Wide Leaps Within the Subdominant
+  mozart_quartet4_presto
+  ellor_diadem
+  mozart_quartet6_rondo
+  anonymous_hotesse
+  anonymous_chez
+  foster_song
+  gladden_mountains
+==Leaps Within the Subdominant, Minor Keys
+  wedge7
+  wedge9
+  wedge14
+  x_crowell28
+  anonymous_hanukah
+  anonymous_llorando
+  mozart_requiem_osanna
+  bach_oboe
+  anonymous_amo
+  anonymous_russian1
+  anonymous_russian4
+  anonymous_gens
+==Leaps of a Seventh//seventhleap
+  *With leaps of a seventh, as with any very broad leap, the most common problem is simply the inability to reach the note. Make sure to sing each example in an appropriate key. If the leap of a seventh is upward, find the lowest key in which you can comfortably sing the lowest note of the melody.
+  *A factor in the sight-singer's favor is that the most difficult leaps to sing are usually the ones that are ugly as well, and therefore composers don't write them; in real music, most leaps of a seventh occur in certain special contexts that make them both easier to sing and more acceptable to the ear. Although it is possible to memorize the sounds of the minor and major seventh leaps and sing them on demand, that's a fundamentally unnatural way to think about melody; keep in mind that most of the examples in this section are folk songs created by people who were illiterate, and probably could not have performed such a trick themselves.
+  *Another technique for use when all else fails is to imagine the seventh as a downward step, with the second note moved up an octave. In all the following examples, however, we'll see that there are better solutions arising naturally from the logic of the melodic line.
+  *The first example is easy, because the leap begins a repetition.
+  mozart_quartet8_menuet
+  *The next two examples are not much harder; there is repetition, but at a pitch one step higher.
+  hess_fishing
+  anonymous_wedge6
+  *In the next tune, the leap upward from `ti' to `la' is heard as the inversion of the earlier step down from `ti' to `la.'
+  anonymous_carmela_b
+  *The next example has a leap of a seventh as part of a dominant seventh chord. It resolves downward to `mi,' and this `fa-mi' relationship is one of the most prominent landmarks of the key, so you may find that the easiest way to hit the `fa' is simply by locating `fa-mi.'
+  x_mozart_quartet1_menuet_part
+  *This tune, like the preceding one, uses the familiar `so-fa-mi' pattern. The leap is also made easier because we've just sung `fa' in the low register, and because, looking ahead, we anticipate the descending scale `fa-mi-re-do.'
+  anonymous_follow
+  *Another `so-fa-mi' example. The `fa' is heard as part of a logical progression of prominent high points in the line.
+  mendelssohn_elijah_hearts
+  bayly_long_ago
+  anonymous_cradle2
+  anonymous_widdecombe
+  anonymous_shepherdess
+  anonymous_reir1
+  anonymous_russian2
+  anonymous_quinze
+  mozart_quartet8_menuet
+  mozart_quartet7_presto
+  anonymous_upidee
+==Other Perfect Fourths and Fifths
+  *We've already sung leaps of a fourth and a fifth within the tonic, dominant, and subdominant chords, and those leaps strongly implied their chords. For instance, it's difficult to hear the `so-re' leap without perceiving a dominant chord. Although other leaps of a fourth or a fifth may imply other triads, in real music they are more commonly produced not by the harmony but by the logic of the melody itself. In the first example, the composer simply wants to repeat a molodic idea at a different pitch. The `la' is easily sung by thinking of it in relation to the `do' it leads up to.
+  mozart_quartet4_opening
+  *In this example, the leap from `la' to `re' is heard as an imitation of the preceding `so-do' leap.
+  anonymous_wedge11
+  *Here, we really have the easy `so-mi' leap, but with `la' interposed.
+  x_anonymous_rana
+  poulton_aura_lee,f
+  weber_softly_now
+  harris_ball
+  sullivan2
+  sullivan3
+  foster_slumber
+  foster_annie
+  anonymous_rio
+  rimsky_korsakov_scheherezade
+  beethoven_quartet1_allegro
+  mozart_quartet1_trio
+  abt_aroon
+  anonymous_germany
+  moore_love
+  giordiano_caro
+  anonymous_remon
+  anonymous_juanita
+  thompson_lilly
+  anonymous_santa_anita
+  pergolesi_stabat2
+  bach_cello_menuet
+  brahms_symphony1_intro
+  anonymous_processional
+  milhaud_sion
+  anonymous_sagt
+  anonymous_gunhilde
+  anonymous_schaeferin
+  bach_chorale5
+  handel_angels
+  beethoven_quartet6_allegro
+==The Diminished Seventh Chord, and the Harmonic Minor Scale
+  x_crowell14
+  anonymous_daniel
+  bach_invention2
+  mozart_quartet5_andante
+  goldfaden_raisins
+
+=Nondiatonic Materials
+==Secondary Dominants and Chromatic Passing Tones
+  luther_fortress
+  anonymous_barry
+  x_crowell35
+  conkey_mercy
+  shoals_valedictory
+  anonymous_rat
+  webbe_disconsolate
+  keller_peace
+  butterfield_young
+  woodbury_speed_away
+  mozart_magic_flute_aria
+  anonymous_saints
+  anonymous_penando
+  anonymous_maclean
+  stradella_ragion
+  anonymous_port
+  root_battle
+  cooper_bells
+  mcnaughton_coat
+  x_mozart_quartet1_menuet
+  haydn_quartet76-3_adagio
+  anonymous_crepusculo
+  anonymous_noche
+  pergolesi_stabat4
+  bach_orchestral_suite_2_bouree_2.ly
+  anonymous_cruel
+  hawthorne_work
+  joplin_winners
+  edwards_oldsmobile
+  anonymous_erlaube
+  x_bach_orchestral_suite_1_menuet_1
+  handel_judas
+  shackleton_orange
+  anonymous_adelphi
+  allen_athens
+  ascher_alice
+  *In the following two melodies, the flattened third scale degree occurs in the vii$^o$7 of V chord.
+  mozart_horn_duet2_all.ly
+  schubert_mountains
+  #--- end of viio7 of V examples
+  x_duet_magic_flute
+==Blue Notes
+  anonymous_graveyard
+  anonymous_jordan
+  anonymous_cyclone
+  europe_angeline
+  anonymous_tis_me
+==Relative Minor and Major
+  anonymous_schwesterlein
+  anonymous_ritter
+  anonymous_cradle
+  bach_chorale18
+  bach_chorale38
+  anonymous_feinsliebchen
+  x_bach_chorale62
+  crouch_kathleen
+#==Parallel Minor and Major
+
+=The C Clef
+  *This chapter recapitulates some melodies from earlier chapters, using the C clef. The clef indicates middle C. In modern music, the C clef is used almost exclusively for the viola, but it will also be encountered in older scores, both vocal and instrumental, as an equally important companion to the treble and bass clefs. The C clef is a movable clef, but the examples in this chapter are all given with C placed at the middle line. Sight-singing from the C clef is not difficult, because one merely follows the usual procedure of determining which line or space on the staff represents `do,' and reading all other notes relative to it. A trick for instrumentalists is to imagine that the middle line is really the ledger line for middle C on the grand staff, while the top two lines belong to the treble clef, and the bottom two to the bass clef. (The same trick can be handy for vocalists when using the key signature to find the tonic on the staff.)
+  x_cclef_crowell2
+  x_cclef_crowell7
+  x_cclef_anonymous_ash
+  x_cclef_haydn_oxford_menuet
+  x_cclef_anonymous_wedge1
+  x_cclef_anonymous_hort
+  x_cclef_anonymous_paloma
+  x_cclef_holst_venus
+  x_cclef_anonymous_wedge3
+  x_cclef_pergolesi_sancta_mater
+  x_cclef_mozart_papageno
+  x_cclef_haydn_london_finale
+  *The following three examples are in the minor mode.
+  x_cclef_anonymous_hour
+  x_cclef_anonymous_russian6
+  x_cclef_anonymous_feinsliebchen
+  #--end minor examples
+  x_cclef_crouch_kathleen

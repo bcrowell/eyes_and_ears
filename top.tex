@@ -1,0 +1,43 @@
+\documentclass{sight}
+\makeindex
+\begin{document}
+\thispagestyle{empty}
+\raisebox{0mm}[0mm][0mm]{%
+\parbox{8.5in}{
+\vspace*{236mm}\hspace{-32mm}\includegraphics[natwidth=8.5in,natheight=11in]{cover}\\
+}
+}%
+\\
+
+%========================= frontmatter =========================
+\frontmatter
+\yesiwantarabic
+%\include{title}
+\include{copyright}
+\yesiwantarabic
+
+\newcommand{\briefch}[2]{\noindent\mynormaltype\Large\sffamily{}\ref{ch:#1} & #2 \quad \pageref{ch:#1}\\}
+\newcommand{\briefsec}[2]{\noindent\mynormaltype\large \ref{sec:#1} & \large #2 \quad \pageref{sec:#1}\\}
+\include{brieftoc}% constructed by build.pl
+\vfill
+\mynormaltype
+
+\onecolumn\pagebreak[4]
+
+\vspace{0mm}
+\begin{center}
+\noindent\huge\bfseries\sffamily{}Contents\mynormaltype
+\end{center}
+\vspace{0mm}
+\begin{multicols}{2}
+  \tableofcontents
+  \setcounter{unbalance}{0}
+\end{multicols}
+\normallayout\onecolumn
+
+%========================= main matter =========================
+
+\mainmatter
+%-- I want the whole book numbered sequentially, arabic:
+  \pagenumbering{arabic} 
+  \addtocounter{page}{12} 
