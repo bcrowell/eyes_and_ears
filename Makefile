@@ -4,6 +4,8 @@ NICE =
 #LATEX = latex -output-format dvi
 LATEX = latex
 
+CC_OPTIONS = -Wno-implicit-int
+
 book: clamor_lily
 	$(NICE) build.pl book >sight.lytex
 	$(NICE) lilypond-book --include=melodies --output=out sight.lytex
@@ -39,8 +41,8 @@ clamor_lily: lily.l lily.y
 	# lily.l and lily.y are duplicated in clamor
 	flex lily.l
 	bison -d -v lily.y
-	cc -c lex.yy.c lily.tab.c
-	cc -o clamor_lily lex.yy.o lily.tab.o -lfl
+	cc $(CC_OPTIONS) -c lex.yy.c lily.tab.c
+	cc $(CC_OPTIONS) -o clamor_lily lex.yy.o lily.tab.o -lfl
 	rm lily.tab.* lex.yy.*
 
 prepress:
